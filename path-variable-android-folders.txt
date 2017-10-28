@@ -1,0 +1,7 @@
+.bash_profile is recommended for that (runs once on start) also you can use .bash_rc (used for every new console)
+
+
+create .bash_profile in home folder, fill with below text:
+
+export ANDROID_HOME=/Users/akac/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools

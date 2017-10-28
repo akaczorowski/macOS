@@ -1,0 +1,2 @@
+defaults write com.apple.finder AppleShowAllFiles -bool true
+osascript -e 'quit app "Finder"' (or ctrl+alt+click on Finder -> Relunch)
